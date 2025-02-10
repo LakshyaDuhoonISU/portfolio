@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshya Duhoon - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Lakshya Duhoon</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm Lakshya Duhoon</h1>
+                <h2>Web Developer</h2>
+                <p>I create beautiful and functional websites</p>
+                <a href="assets/Lakshya_Resume-8.pdf" download class="download-btn">Download Resume</a>
+            </div>
+            <div>
+                <img src="assets/lakshya_img.png" alt="Lakshya Duhoon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <p>C++</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <p>Java</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Web Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <p>React.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node"></i>
+                        <p>Node.js</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <p>MongoDB</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <p>Neo4j</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>No-Code Tools</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <p>Scratch</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-table"></i>
+                        <p>AppSheet</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-globe"></i>
+                        <p>Wix</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <p>Canva</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-figma"></i>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/inshorts.png" alt="Project 1">
+                <h3>Inshorts Website</h3>
+                <p>A clone of the popular news aggregator website Inshorts, built using React.js and NewsAPI.</p>
+                <a href="https://github.com/LakshyaDuhoonISU/inshorts-demo-day" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/flashpay.png" alt="Project 2">
+                <h3>FlashPay</h3>
+                <p>A payment gateway website built using React.js and Node.js with Express.js and MongoDB and Neo4j and
+                    GraphQL. Includes features like payment processing(UPI, Card, NetBanking), transaction history, user
+                    authentication(using Firebase), customer management, and subscription management.</p>
+                <a href="https://github.com/LakshyaDuhoonISU/razorpay_project" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/pixar.png" alt="Project 3">
+                <h3>Pixar Website</h3>
+                <p>A clone of the popular website Pixar, built using HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/LakshyaDuhoonISU/PixarWebsite" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/pms.png" alt="Project 4">
+                <h3>Product Management System</h3>
+                <p>A product management system built using React.js, has features like adding, editing, deleting
+                    products, and viewing products.</p>
+                <a href="https://github.com/LakshyaDuhoonISU/react-pms" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/weather.png" alt="Project 4">
+                <h3>Weather App</h3>
+                <p>A weather app built using React.js, has feature to view weather of a city.</p>
+                <a href="https://github.com/LakshyaDuhoonISU/weather-app" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Catalyst</h3>
+                <p>A movie and book recommendation system built using Python which uses MCQ to determine the mood and
+                    energy level of the user and recommends movies and books accordingly.</p>
+                <a href="https://github.com/Jeevan-04/Catalyst?tab=readme-ov-file" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <section class="social-links">
+        <h2>Connect With Me</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lakshyad723/" target="_blank" rel="noopener"
+                aria-label="Visit my LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/LakshyaDuhoonISU" target="_blank" rel="noopener"
+                aria-label="Visit my GitHub profile"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com/u/lakshya311/" target="_blank" rel="noopener"
+                aria-label="Visit my LeetCode profile"><i class="fas fa-code"></i></a>
+            <a href="https://www.hackerrank.com/profile/2023_lakshyad" target="_blank" rel="noopener"
+                aria-label="Visit my HackerRank profile"><i class="fab fa-hackerrank"></i></a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" id="subject" name="subject" required placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lakshya Duhoon. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
